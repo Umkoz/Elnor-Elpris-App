@@ -6,7 +6,7 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Keep Moshi classes for JSON parsing
--keep class com.example.elpriscompose.model.** { *; }
+-keep class se.elnor.elprisnu.model.** { *; }
 
 # Retrofit
 -keepattributes Signature

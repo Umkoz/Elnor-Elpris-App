@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.elpriscompose'
+    namespace 'se.elnor.elprisnu'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.example.elpriscompose"
+        applicationId "se.elnor.elprisnu"
         minSdk 26
         targetSdk 35
         versionCode 1
@@ -34,7 +34,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

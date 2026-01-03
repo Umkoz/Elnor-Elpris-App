@@ -1,4 +1,4 @@
-# Elpris Compose Android App
+# Elpris Nu - Elnor Elhandel AB
 
 ## Förutsättningar
 
