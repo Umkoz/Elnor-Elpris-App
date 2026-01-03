@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elpris Nu</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Hem</string>
+    <string name="nav_games">Spel</string>
+    <string name="nav_settings">Inställningar</string>
+    
+    <!-- Home Screen -->
+    <string name="price_now">Just nu</string>
+    <string name="daily_average">Dagens snitt</string>
+    <string name="stat_average">SNITT</string>
+    <string name="stat_lowest">LÄGST</string>
+    <string name="stat_highest">HÖGST</string>
+    <string name="ore_per_kwh">öre/kWh</string>
+    
+    <!-- Time Ranges -->
+    <string name="time_today">Idag</string>
+    <string name="time_week">Vecka</string>
+    <string name="time_month">Månad</string>
+    <string name="time_year">År</string>
+    
+    <!-- Regions -->
+    <string name="region_se1">SE1 - Norra Sverige</string>
+    <string name="region_se2">SE2 - Norra Mellansverige</string>
+    <string name="region_se3">SE3 - Södra Mellansverige</string>
+    <string name="region_se4">SE4 - Södra Sverige</string>
+    
+    <!-- Settings -->
+    <string name="settings_display">Visning</string>
+    <string name="settings_vat">Visa priser inkl. moms</string>
+    <string name="settings_notifications">Prisnotifikationer</string>
+    <string name="settings_notify_low">Under (öre)</string>
+    <string name="settings_notify_high">Över (öre)</string>
+    <string name="settings_about">Om appen</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_developer">Utvecklare</string>
+    <string name="settings_developer_name">Elnor Elhandel AB</string>
+    <string name="settings_data_source">Datakälla</string>
+    <string name="settings_data_source_name">elprisetjustnu.se</string>
+    
+    <!-- Errors -->
+    <string name="error_no_data">Kunde inte hämta elpriser</string>
+    <string name="error_check_connection">Kontrollera internetanslutningen</string>
+    <string name="error_tomorrow_not_ready">Morgondagens priser blir tillgängliga ca kl 13:00</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Prisvarningar</string>
+    <string name="notification_channel_desc">Notifikationer när elpriset är lågt eller högt</string>
+    <string name="notification_low_title">⚡ Lågt elpris - dags att ladda!</string>
+    <string name="notification_high_title">⚠️ Högt elpris</string>
+</resources>
